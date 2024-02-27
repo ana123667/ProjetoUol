@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_user_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Incluir o cabeçalho -->
+    <include layout="@layout/header_layout" />
+
+    <!-- Título "Perfil" -->
+
+    <!-- Nome do Usuário -->
+    <TextView
+        android:id="@+id/textViewProfileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Perfil"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- E-mail -->
+
+    <!-- Botão de Voltar -->
+
+    <!-- Nome dos Álbuns com OnClickListener -->
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProfileTitle"
+        android:layout_marginTop="17dp"
+        android:text="Nome do Usuário"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUserName"
+        android:layout_marginTop="19dp"
+        android:text="user@example.com"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginTop="-91dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/textViewAlbums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBack"
+        android:layout_marginTop="110dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openAlbum"
+        android:text="Álbuns: Álbum 1, Álbum 2, Álbum 3"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+
+
