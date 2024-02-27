@@ -1,6 +1,6 @@
 # ProjetoUol
 # 1. Introdução
-O "AppAlbumFotos" é um aplicativo Android desenvolvido para proporcionar aos usuários uma experiência de visualização de álbuns de fotos, detalhes do usuário e listagem de usuários. Este documento oferece uma visão geral das principais características, estrutura do projeto, componentes e instruções para execução.
+O "AlbumVision" é um aplicativo Android desenvolvido para proporcionar aos usuários uma experiência de visualização de álbuns de fotos, detalhes do usuário e listagem de usuários. Este documento oferece uma visão geral das principais características, estrutura do projeto, componentes e instruções para execução.
 
 # 2. Visão Geral
 # 2.1 Objetivo do Projeto
