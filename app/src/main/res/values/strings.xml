@@ -3,4 +3,6 @@
     <string name="user_name">User Name</string>
     <string name="user_example_com">user@example.com</string>
     <string name="lbuns_lbum_1_lbum_2_lbum_3">Álbuns: Álbum 1, Álbum 2, Álbum 3</string>
+    <string name="lbuns_lbum__lbum_2_lbum_3">Álbuns: Álbum 1, Álbum 2, Álbum 3</string>
+    <string name="my_image_description" />
 </resources>

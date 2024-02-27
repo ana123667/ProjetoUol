@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- res/layout/item_album.xml -->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@android:color/darker_gray" />
 
     <TextView
         android:id="@+id/albumArtistTextView"
@@ -30,8 +28,5 @@
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_default_album_cover" />
-
-    <!-- You can add more TextViews or UI components for additional album details -->
-
 </LinearLayout>
 
